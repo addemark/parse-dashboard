@@ -2,12 +2,20 @@
   "apps": [
     {
       "serverURL": "http://localhost:1337/parse",
-      "appId": "hello",
-      "masterKey": "world",
-      "appName": "",
+      "graphQLServerURL": "http://localhost:1337/graphql",
+      "appId": "addemark-MongoDB-Manager",
+      "masterKey": "Razvan_1234@",
+      "appName": "invita",
       "iconName": "",
       "primaryBackgroundColor": "",
       "secondaryBackgroundColor": ""
+    }
+  ],
+  "users": [
+    {
+      "user": "user1",
+      "pass": "pass1",
+      "apps": [{ "appId": "addemark-MongoDB-Manager" }]
     }
   ],
   "iconsFolder": "icons"
